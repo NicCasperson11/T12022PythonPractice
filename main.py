@@ -1,27 +1,17 @@
-def addTwoNumbers():
-    x = 82
-    y = 125
-    print (x + y)
+def concTwoVars(b, c):
+    print(b + c)
 
-addTwoNumbers()
+def topFiveMovies(a, b, c, d, e):
+    print("These are my top five movies")
+    print(a)
+    print(b)
+    print(c)
+    print(d)
+    print(e)
 
-def printName():
-    print("Nic")
+def potatoTimesTomato(potato, tomato):
+    print(potato * tomato)
 
-printName()
-
-def printTopFive():
-    print("Top 5 The Mario game")
-    print("5. mario on the ps4")
-    print("4. MARIO goes to the store to buy a gallon of milk")
-    print("3. Mario minestrone THE GAME")
-    print("2. Wario Land 4 on the Game Boy Advance")
-    print("1. Super marrow")
-
-printTopFive()
-
-def scaryFunction():
-    print("Minions " * 666)
-
-scaryFunction()
-
+concTwoVars("Wario ", "World")
+topFiveMovies("5. The Movie", "4. Despicable Me 8", "3. Elf Bowling the Movie: The Great North Pole Elf Strike", "2. The Channel of Egg: The Animated Feature Film", "1. Minions 14")
+potatoTimesTomato("Family Guy ", 85)
